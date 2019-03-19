@@ -20,7 +20,7 @@ let substr = str.substring(46,71);
 console.log(substr);
 
 // 4) replace taht with that
-let replace = str.replace("taht","that");
+let replace = str.replace(/taht/ig,"that");
 console.log(replace);
 
 // 5) length of string
