@@ -10,6 +10,11 @@ console.log("The index of the word Governments is :" + indxOf);
 let indxOfall = str.indexOf("all")
 console.log("The index of the word all:" + indxOfall);
 
+
+// comma after all
+let comma = str.indexOf(",",indxOfall);
+console.log("the index of the comma is:" + comma);
+
 // 3) substring from all to next comma
 let substr = str.substring(46,71);
 console.log(substr);
