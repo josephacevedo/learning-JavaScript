@@ -1,0 +1,14 @@
+let jump;
+jump =getJump(5);
+console.log(jump);
+
+function getJump(jump) {
+    let date = new Date();
+    let hour = date.getHours();
+    let seconds = date.getSeconds();
+    
+    for (let i = hour; i < seconds; i+= jump) {
+       console.log(i);     
+    }
+    return console.log(`The current starting point is ${hour} ending at ${seconds} counting by ${jump} `);;
+} 
